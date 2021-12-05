@@ -12,10 +12,10 @@ const Home = () => {
                     <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
                         <ul class="navbar-nav ms-auto flex-nowrap">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="/about">About</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -27,7 +27,7 @@ const Home = () => {
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
+                                <a class="nav-link" href="/contact">Contact Us</a>
                             </li>
 
                         </ul>

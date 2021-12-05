@@ -32,6 +32,8 @@ ul li a{
     padding-top: 88px !important;
 }
 footer{
+    position: relative;
+    bottom: 0;
   
     background-color: #e3f2fd;
     
