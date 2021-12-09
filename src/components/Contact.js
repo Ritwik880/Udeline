@@ -15,8 +15,8 @@ const Contact = () => {
 
     };
     const image = {
-        height: "50%",
-        paddingTop: "10%"
+        height: "40%",
+        marginTop: "20%"
 
     }
     return (
