@@ -5,10 +5,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 
 const Home = () => {
-    
+    const headdiv = {
+        backgroundColor: '#a29bfe',
+        width: '100%'
+
+    }
+    const heading = {
+        textAlign: 'center'
+
+        // height: '4%'
+
+    }
+
     return (
         <>
-        <Header/>
+            {/* <Header /> */}
 
             <section name="Landing" class="aagam-landing-section container py-5 pb-0">
                 <div class="row">
@@ -33,7 +44,33 @@ const Home = () => {
                 </div>
 
             </section>
-          
+            <div class="my-5 py-5 aagam-landing-text" style={headdiv}>
+                <h1 class="dinot-haeding header" style={heading} className='animatedhead'>What We Do?
+
+                </h1>
+
+
+            </div>
+            <section name="Landing" class="aagam-landing-section container py-5 pb-0">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 p-5 pb-0">
+                        {/* <div class="my-5 py-5 aagam-landing-text" style={headdiv}>
+                            <h1 class="dinot-haeding header" style={heading}>How we work
+
+                            </h1>
+                            
+                           
+                        </div> */}
+                    </div>
+
+                    <div class="arrow-right"></div>
+
+                </div>
+
+            </section>
+
+
+
 
 
         </>

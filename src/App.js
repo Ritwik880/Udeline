@@ -7,14 +7,17 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+// import firebase from 'firebase';
+// import { db } from './firebase';
 const App = () => {
+ 
+
+
   return (
     <>
-      {/* <Home/>
-    <About/>
-    <Contact/> */}
+    
       <Header />
-      
+
       <Routes>
 
         <Route exact path="/" element={<Home />}>
@@ -38,3 +41,5 @@ const App = () => {
 }
 
 export default App
+
+

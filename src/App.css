@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
 *{
+    overflow-x: hidden;
     font-family: 'Comic Neue', cursive;
     font-weight: 300;
 }
@@ -13,6 +14,18 @@
 }
 ul li a{
     margin: 5px;
+}
+.link:active{
+    /* color: 'rgba(0,0,0,.55)', */
+    /* background-color: #82ccdd; */
+}
+.link:hover{
+    background-color: #82ccdd;
+    border-radius: 2px;
+    transition: all 1s;
+    color: black !important;
+   
+
 }
 .btn {
     background: #2BC790;
@@ -31,6 +44,62 @@ ul li a{
 .aagam-landing-text {
     padding-top: 88px !important;
 }
+.animatedhead{
+    /* font-size: 2rem; */
+    color: transparent;
+    animation: effect 2s linear infinite;
+}
+@keyframes effect {
+    0% {
+        background: linear-gradient(
+                #000, grey);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+                #000, darkgrey);
+        -webkit-background-clip: text;
+    }
+}
+.about{
+    min-height: 500px !important;
+    background-image: url('./image/aboutbg.jpg');
+    background-size: cover;
+    background-position: center top;
+    /* background: linear-gradient(87deg,#172b4d 0,#1a174d 100%)!important; */
+        
+}
+.upper{
+    z-index: 2;
+}
+.opacity-7 {
+    opacity: .7!important;
+}
+.bg-gradient-default {
+    background: linear-gradient(87deg,#172b4d 0,#1a174d 100%)!important;
+}
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .15s ease;
+}
+.card-profile-image img {
+    position: absolute;
+    left: 50%;
+    max-width: 140px;
+    transition: all .15s ease;
+    transform: translate(-51%,1%) scale(1);
+    border: 3px solid #fff;
+    border-radius: 0.375rem;
+}
+.card-profile-image img:hover {
+    transform: translate(-50%,-50%) scale(1.03);
+}
+
 footer{
     position: relative;
     bottom: 0;

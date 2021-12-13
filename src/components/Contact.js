@@ -1,8 +1,41 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 import contact from '../image/contact.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, Button, Container, NavDropdown } from 'react-bootstrap';
+// import { db } from "../firebase.js";
 const Contact = () => {
+    const db = ()=> {
+        
+    }
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
+    const [loader, setLoader] = useState(false);
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setLoader(true);
+
+        db.collection("contacts")
+            .add({
+                name: name,
+                email: email,
+                message: message,
+            })
+            .then(() => {
+                setLoader(false);
+                alert("Your message has been submitted👍");
+            })
+            .catch((error) => {
+                alert(error.message);
+                setLoader(false);
+            });
+
+        setName("");
+        setEmail("");
+        setMessage("");
+    };
     const heading = {
 
         color: "black",
@@ -31,20 +64,23 @@ const Contact = () => {
                             <h1 class="dinot-haeding header">Contact Us
 
                             </h1>
-                            <Form>
+                            <Form onSubmit={handleSubmit}>
                                 <Form.Group style={form} className="mb-3" controlId="formBasicEmail">
 
-                                    <Form.Control type="text" placeholder="Full name*" autoComplete="offf" />
+                                    <Form.Control type="text" placeholder="Full name*" autoComplete="offf" value={name}
+                                        onChange={(e) => setName(e.target.value)} />
 
                                 </Form.Group>
 
                                 <Form.Group style={form} className="mb-3" controlId="formBasicPassword">
 
-                                    <Form.Control type="text" placeholder="Email*" autoComplete="offf" />
+                                    <Form.Control type="text" placeholder="Email*" autoComplete="offf" value={email}
+                                        onChange={(e) => setEmail(e.target.value)} />
                                 </Form.Group>
                                 <Form.Group style={form} className="mb-3" controlId="exampleForm.ControlTextarea1">
 
-                                    <Form.Control as="textarea" rows={3} placeholder="Message*" />
+                                    <Form.Control as="textarea" rows={3} placeholder="Message*" value={message}
+                                        onChange={(e) => setMessage(e.target.value)} />
                                 </Form.Group>
 
                                 <Button variant="primary" type="submit">
