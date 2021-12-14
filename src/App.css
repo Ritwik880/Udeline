@@ -126,9 +126,8 @@ ul li a{
 }
 
 footer{
-    position: relative;
+    position: fixed;
     bottom: 0;
-  
     background-color: #e3f2fd;
     
 }
