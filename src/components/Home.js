@@ -31,7 +31,7 @@ const Home = () => {
                             <p class="pt-4">Udeline is India`s largest and fastest-growing community of technology innovators including startups and student innovators.
                             </p>
                             <div class="d-flex pt-4 d-none d-lg-block d-xl-block d-md-block">
-                                <a href="#" class="btn btn-primary mr-2 aagam-btn-primary">Get Started</a>
+                                <a href="/course" class="btn btn-primary mr-2 aagam-btn-primary">Get Started</a>
 
                             </div>
                         </div>
@@ -44,7 +44,7 @@ const Home = () => {
                 </div>
 
             </section>
-            <div class="my-5 py-5 aagam-landing-text" style={headdiv}>
+            {/* <div class="my-5 py-5 aagam-landing-text" style={headdiv}>
                 <h1 class="dinot-haeding header" style={heading} className='animatedhead'>What We Do?
 
                 </h1>
@@ -54,20 +54,14 @@ const Home = () => {
             <section name="Landing" class="aagam-landing-section container py-5 pb-0">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 p-5 pb-0">
-                        {/* <div class="my-5 py-5 aagam-landing-text" style={headdiv}>
-                            <h1 class="dinot-haeding header" style={heading}>How we work
 
-                            </h1>
-                            
-                           
-                        </div> */}
                     </div>
 
                     <div class="arrow-right"></div>
 
                 </div>
 
-            </section>
+            </section> */}
 
 
 

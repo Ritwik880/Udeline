@@ -9,22 +9,21 @@ const Header = () => {
         backgroundColor: "#e3f2fd",
         position: "fixed",
         width: "100%",
-        zIndex: '2'
-        // boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px'
-        // boxShadow: 'rgb(236 240 241) 0px 20px 27px 7px'
+        zIndex: '999'
+
     };
     const navlink = {
         textDecoration: 'none',
         color: 'rgba(0,0,0,.55)',
         padding: '7px',
         // color: 'black'
-    
-        
+
+
     };
 
     return (
         <>
-         <Navbar style={header} expand="lg">
+            <Navbar style={header} expand="lg">
                 <Container>
                     <Navbar.Brand to="/"><img src={logo} /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -32,20 +31,20 @@ const Header = () => {
                         <Nav className="ms-auto">
                             <NavLink style={navlink} to="/" className="link">Home</NavLink >
                             <NavLink style={navlink} to="/about" className="link">About</NavLink >
+                            <NavLink style={navlink} to="/course" className="link">Courses</NavLink >
 
-
+                            {/* 
                             <NavDropdown title="Crash Course" id="basic-nav-dropdown" className="link">
-                                <NavDropdown.Item href="#action/3.1">Demo</NavDropdown.Item>
-                                {/* <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item> */}
+                                <NavDropdown.Item to="/course">Explore Courses</NavDropdown.Item>
 
-                            </NavDropdown>
+
+                            </NavDropdown> */}
                             <NavLink style={navlink} to="/contact" className="link">Contact Us</NavLink >
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            
+
         </>
     )
 }

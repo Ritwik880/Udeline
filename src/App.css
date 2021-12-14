@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
 *{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     font-family: 'Comic Neue', cursive;
     font-weight: 300;
 }
@@ -28,18 +28,18 @@ ul li a{
 
 }
 .btn {
-    background: #2BC790;
-    color: white;
-    padding: 10px 20px;
-    outline: none;
-    border: 0;
-    border-radius: 50px;
-    animation: hue 20s infinite;
-    transition: padding 0.5s;
+    background: #2BC790 !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    outline: none !important;
+    border: 0 !important;
+    border-radius: 50px !important;
+    animation: hue 20s infinite !important;
+    transition: padding 0.5s !important;
 }
 
 .btn:hover {
-    padding: 10px 40px;
+    padding: 10px 40px !important;
 }
 .aagam-landing-text {
     padding-top: 88px !important;
@@ -70,11 +70,22 @@ ul li a{
     /* background: linear-gradient(87deg,#172b4d 0,#1a174d 100%)!important; */
         
 }
+.course{
+    min-height: 570px !important;
+    background-image: url('./image/course.jpg');
+    background-size: cover;
+    background-position: center top;
+    /* background: linear-gradient(87deg,#172b4d 0,#1a174d 100%)!important; */
+        
+}
 .upper{
     z-index: 2;
 }
 .opacity-7 {
     opacity: .7!important;
+}
+.course-grad{
+    background: linear-gradient(87deg,#A9F1DF 0,#FFBBBB 100%)!important;
 }
 .bg-gradient-default {
     background: linear-gradient(87deg,#172b4d 0,#1a174d 100%)!important;
@@ -98,6 +109,15 @@ ul li a{
 }
 .card-profile-image img:hover {
     transform: translate(-50%,-50%) scale(1.03);
+}
+.shadow{
+    transition: transform 0.5s;
+    cursor: pointer;
+    /* background-color: #000 !important;
+    color: #fff !important; */
+}
+.shadow:hover{
+    transform: translateY(-10px);
 }
 
 footer{

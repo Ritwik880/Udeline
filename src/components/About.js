@@ -42,6 +42,31 @@ const About = () => {
 
                         <div class="col-lg-12 justify-content-between about-us">
                             <div class="row mt-5 justify-content-center">
+                            <div class="col-lg-4">
+                                    <div class="card-body text-center pb-3">
+                                        <div class="container">
+                                            <div class="card card-profile shadow">
+                                                <div class="px-3">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-lg-3 order-lg-2">
+                                                            <div class="card-profile-image">
+                                                                <a href="https://www.linkedin.com/in/samkitsharma/">
+                                                                    {/* <img src={nishant} style={image}  /> */}
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-center mt-5 pb-3">
+                                                        <h3>Joyshree</h3>
+                                                        <div class="h5 font-weight-400">Founder</div>
+                                                        <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="col-lg-4">
                                     <div class="card-body text-center pb-3">
                                         <div class="container">
@@ -51,7 +76,7 @@ const About = () => {
                                                         <div class="col-lg-3 order-lg-2">
                                                             <div class="card-profile-image">
                                                                 <a href="https://www.linkedin.com/in/saurabh-patel-ba7686179/">
-                                                                    <img src={saurab} style={image} />
+                                                                    {/* <img src={saurab} style={image} /> */}
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -76,7 +101,32 @@ const About = () => {
                                                         <div class="col-lg-3 order-lg-2">
                                                             <div class="card-profile-image">
                                                                 <a href="https://www.linkedin.com/in/samkitsharma/">
-                                                                    <img src={anmol} style={image}  />
+                                                                    {/* <img src={anmol} style={image}  /> */}
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-center mt-5 pb-3">
+                                                        <h3>Anmol Raj</h3>
+                                                        <div class="h5 font-weight-400">Co-Founder</div>
+                                                        <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card-body text-center pb-3">
+                                        <div class="container">
+                                            <div class="card card-profile shadow">
+                                                <div class="px-3">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-lg-3 order-lg-2">
+                                                            <div class="card-profile-image">
+                                                                <a href="https://www.linkedin.com/in/samkitsharma/">
+                                                                    {/* <img src={nishant} style={image}  /> */}
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -101,13 +151,39 @@ const About = () => {
                                                         <div class="col-lg-3 order-lg-2">
                                                             <div class="card-profile-image">
                                                                 <a href="https://www.linkedin.com/in/samkitsharma/">
-                                                                    <img src={nishant} style={image}  />
+                                                                    {/* <img src={nishant} style={image}  /> */}
                                                                 </a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="text-center mt-5 pb-3">
-                                                        <h3>Anmol Raj</h3>
+                                                        <h3>Abhineet Anand</h3>
+                                                        <div class="h5 font-weight-400">Co-Founder</div>
+                                                        <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             
+                                <div class="col-lg-4">
+                                    <div class="card-body text-center pb-3">
+                                        <div class="container">
+                                            <div class="card card-profile shadow">
+                                                <div class="px-3">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-lg-3 order-lg-2">
+                                                            <div class="card-profile-image">
+                                                                <a href="https://www.linkedin.com/in/samkitsharma/">
+                                                                    {/* <img src={nishant} style={image}  /> */}
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-center mt-5 pb-3">
+                                                        <h3>Ritwik</h3>
                                                         <div class="h5 font-weight-400">Co-Founder</div>
                                                         <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
                                                         </small>
