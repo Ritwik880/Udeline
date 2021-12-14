@@ -91,7 +91,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0 padding-none-m">
-                        <img class="landing-image" src={contact} style={image} />
+                        <img class="contact-image" src={contact} style={image} />
                     </div>
                     <div class="arrow-right"></div>
 

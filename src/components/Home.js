@@ -3,6 +3,7 @@ import Header from './Header'
 import logo from '../image/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
+import '../mobile.css';
 
 const Home = () => {
     const headdiv = {
