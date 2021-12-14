@@ -15,9 +15,14 @@
 ul li a{
     margin: 5px;
 }
-.link:active{
+.active{
+    background-color: #82ccdd !important;
     /* color: 'rgba(0,0,0,.55)', */
     /* background-color: #82ccdd; */
+}
+.link {
+    padding: 15px !important;
+    margin: 15px;
 }
 .link:hover{
     background-color: #82ccdd;

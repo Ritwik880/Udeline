@@ -15,7 +15,7 @@ const Header = () => {
     const navlink = {
         textDecoration: 'none',
         color: 'rgba(0,0,0,.55)',
-        padding: '7px',
+        // padding: '7px',
         // color: 'black'
 
 
@@ -29,7 +29,7 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <NavLink style={navlink} to="/" className="link">Home</NavLink >
+                            <NavLink style={navlink} to="/" className="link" activeClassName="active">Home</NavLink >
                             <NavLink style={navlink} to="/about" className="link">About</NavLink >
                             <NavLink style={navlink} to="/course" className="link">Courses</NavLink >
 
