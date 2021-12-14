@@ -69,19 +69,19 @@ const Contact = () => {
                             <Form onSubmit={handleSubmit}>
                                 <Form.Group style={form} className="mb-3" controlId="formBasicEmail">
 
-                                    <Form.Control type="text" placeholder="Full name*" autoComplete="offf" value={name}
+                                    <Form.Control type="text" placeholder="Full name*" required autoComplete="offf" value={name}
                                         onChange={(e) => setName(e.target.value)} />
 
                                 </Form.Group>
 
                                 <Form.Group style={form} className="mb-3" controlId="formBasicPassword">
 
-                                    <Form.Control type="text" placeholder="Email*" autoComplete="offf" value={email}
+                                    <Form.Control type="text" placeholder="Email*" required autoComplete="offf" value={email}
                                         onChange={(e) => setEmail(e.target.value)} />
                                 </Form.Group>
                                 <Form.Group style={form} className="mb-3" controlId="exampleForm.ControlTextarea1">
 
-                                    <Form.Control as="textarea" rows={3} placeholder="Message*" value={message}
+                                    <Form.Control as="textarea" rows={3} placeholder="Message*" required value={message}
                                         onChange={(e) => setMessage(e.target.value)} />
                                 </Form.Group>
 
