@@ -2,11 +2,10 @@ import React, { useState, useEffect } from "react";
 import contact from '../image/contact.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, Button, Container, NavDropdown } from 'react-bootstrap';
-// import { db } from "../firebase.js";
+import { db } from "../firebase.js";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Contact = () => {
-    const db = ()=> {
-        
-    }
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
@@ -25,10 +24,12 @@ const Contact = () => {
             })
             .then(() => {
                 setLoader(false);
-                alert("Your message has been submitted👍");
+                toast.success("Form Submitted Successfully");
+                //   alert("Your message has been submitted👍");
             })
             .catch((error) => {
-                alert(error.message);
+                toast.error("Please provide value in each input field");
+                //   alert(toast.error.message);
                 setLoader(false);
             });
 
@@ -58,6 +59,7 @@ const Contact = () => {
                 <h1 style={heading}>Comming Soon..</h1>
             </section> */}
             <section name="Landing" class="aagam-landing-section container py-5 pb-0">
+                <ToastContainer position="top-center" />
                 <div class="row">
                     <div class="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0">
                         <div class="my-5 py-5 aagam-landing-text ">
