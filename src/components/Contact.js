@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import contact from '../image/contact.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Form, Button, Container, NavDropdown } from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
 import { db } from "../firebase.js";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -24,7 +24,7 @@ const Contact = () => {
             })
             .then(() => {
                 setLoader(false);
-                toast.success("Form Submitted Successfully");
+                toast.success("Thank you for contacting us.");
                 //   alert("Your message has been submitted👍");
             })
             .catch((error) => {

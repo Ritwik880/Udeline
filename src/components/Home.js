@@ -6,17 +6,17 @@ import '../App.css';
 import '../mobile.css';
 
 const Home = () => {
-    const headdiv = {
-        backgroundColor: '#a29bfe',
-        width: '100%'
+    // const headdiv = {
+    //     backgroundColor: '#a29bfe',
+    //     width: '100%'
 
-    }
-    const heading = {
-        textAlign: 'center'
+    // }
+    // const heading = {
+    //     textAlign: 'center'
 
-        // height: '4%'
+       
 
-    }
+    // }
 
     return (
         <>
