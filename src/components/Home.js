@@ -4,23 +4,15 @@ import logo from '../image/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import '../mobile.css';
+import '../roadMap.scss';
 
 const Home = () => {
-    // const headdiv = {
-    //     backgroundColor: '#a29bfe',
-    //     width: '100%'
 
-    // }
-    // const heading = {
-    //     textAlign: 'center'
-
-       
-
-    // }
 
     return (
         <>
             {/* <Header /> */}
+
 
             <section name="Landing" class="aagam-landing-section container py-5 pb-0">
                 <div class="row">
@@ -38,31 +30,14 @@ const Home = () => {
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0 padding-none-m">
-                        <img class="landing-image" src={logo} />
+                        <img class="home-image" src={logo} />
                     </div>
                     <div class="arrow-right"></div>
 
                 </div>
 
             </section>
-            {/* <div class="my-5 py-5 aagam-landing-text" style={headdiv}>
-                <h1 class="dinot-haeding header" style={heading} className='animatedhead'>What We Do?
-
-                </h1>
-
-
-            </div>
-            <section name="Landing" class="aagam-landing-section container py-5 pb-0">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 p-5 pb-0">
-
-                    </div>
-
-                    <div class="arrow-right"></div>
-
-                </div>
-
-            </section> */}
+         
 
 
 

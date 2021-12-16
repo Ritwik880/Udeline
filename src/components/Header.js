@@ -6,7 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 const Header = () => {
     const header = {
-        backgroundColor: "#e3f2fd",
+        // backgroundColor: "#e3f2fd",
+        backgroundColor: "#00cec9",
         position: "fixed",
         width: "100%",
         zIndex: '999'
@@ -15,6 +16,7 @@ const Header = () => {
     const navlink = {
         textDecoration: 'none',
         color: 'rgba(0,0,0,.55)',
+        
         // padding: '7px',
         // color: 'black'
 

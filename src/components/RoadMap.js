@@ -86,8 +86,8 @@ const RoadMap = () => {
                             </div> */}
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0 padding-none-m">
-                        <Carousel fade>
+                    <div class="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0 padding-none-m my-3">
+                        {/* <Carousel fade>
                             <Carousel.Item>
                                 <img
                                     className="d-block landing-image"
@@ -105,8 +105,8 @@ const RoadMap = () => {
 
                             </Carousel.Item>
 
-                        </Carousel>
-                        {/* <img class="landing-image" src='https://source.unsplash.com/350x300/?Timeline' /> */}
+                        </Carousel> */}
+                        <img class="landing-image" src='https://source.unsplash.com/350x300/?Timeline' />
                     </div>
                     <div class="arrow-right"></div>
 
@@ -120,7 +120,6 @@ const RoadMap = () => {
                 <div className="container">
                     <div className="timeline-item">
                         <div className="timeline-img"></div>
-
                         <div className="timeline-content js--fadeInLeft">
                             <h2>Registration </h2>
                             {/* <div className="date">1 MAY 2016</div> */}
@@ -134,11 +133,7 @@ const RoadMap = () => {
                     </div>
                     <div class="timeline-item">
                         <div className="timeline-img"></div>
-
-
-
-                        <div class="timeline-content timeline-card js--fadeInRight">
-
+                        <div class="timeline-content js--fadeInRight">
                             <h2>Exam Preperation </h2>
 
                             {/* <div class="date">25 MAY 2016</div> */}
