@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 const Contact = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
+    const [phone, setPhone] = useState("");
     const [message, setMessage] = useState("");
 
     const [loader, setLoader] = useState(false);
@@ -20,6 +21,7 @@ const Contact = () => {
             .add({
                 name: name,
                 email: email,
+                phone: phone,
                 message: message,
             })
             .then(() => {
@@ -35,6 +37,7 @@ const Contact = () => {
 
         setName("");
         setEmail("");
+        setPhone("");
         setMessage("");
     };
     const heading = {
@@ -78,6 +81,11 @@ const Contact = () => {
 
                                     <Form.Control type="text" placeholder="Email*" required autoComplete="offf" value={email}
                                         onChange={(e) => setEmail(e.target.value)} />
+                                </Form.Group>
+                                <Form.Group style={form} className="mb-3" controlId="formBasicPassword">
+
+                                    <Form.Control type="text" placeholder="Phone Number*" required autoComplete="offf" value={phone}
+                                        onChange={(e) => setPhone(e.target.value)} />
                                 </Form.Group>
                                 <Form.Group style={form} className="mb-3" controlId="exampleForm.ControlTextarea1">
 

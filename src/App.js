@@ -8,15 +8,16 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Course from './components/Course';
+import RoadMap from './components/RoadMap'
 // import firebase from 'firebase';
 // import { db } from './firebase';
 const App = () => {
- 
+
 
 
   return (
     <>
-    
+
       <Header />
 
       <Routes>
@@ -24,11 +25,14 @@ const App = () => {
         <Route exact path="/" element={<Home />}>
 
         </Route>
-        
+
         <Route exact path="/about" element={<About />}>
 
         </Route>
         <Route exact path="/course" element={<Course />}>
+
+        </Route>
+        <Route exact path="/roadmap" element={<RoadMap />}>
 
         </Route>
 

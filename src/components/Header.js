@@ -32,6 +32,7 @@ const Header = () => {
                             <NavLink style={navlink} to="/" className="link" activeClassName="active">Home</NavLink >
                             <NavLink style={navlink} to="/about" className="link">About</NavLink >
                             <NavLink style={navlink} to="/course" className="link">Courses</NavLink >
+                            <NavLink style={navlink} to="/roadmap" className="link">RoadMap</NavLink >
 
                             {/* 
                             <NavDropdown title="Crash Course" id="basic-nav-dropdown" className="link">
