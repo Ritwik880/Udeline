@@ -12,55 +12,39 @@ import Course from './components/Course';
 import RoadMap from './components/RoadMap'
 import { ThemeProvider } from "styled-components";
 
-// const App = () => {
-const LightTheme = {
-  body: "#fff",
-  fontColor: "#000",
-};
-
-const DarkTheme = {
-  body: "#222f3e",
-  fontColor: "#fff",
-}
-
-const themes = {
-  light: LightTheme,
-  dark: DarkTheme,
-}
+const App = () => {
 
 
 
-function App() {
-  const [theme, setTheme] = useState("light")
   return (
     <>
-      <ThemeProvider theme={themes[theme]}>
 
-        <Header theme={theme} setTheme={setTheme} />
 
-        <Routes>
+      <Header />
 
-          <Route exact path="/" element={<Home />}>
+      <Routes>
 
-          </Route>
+        <Route exact path="/" element={<Home />}>
 
-          <Route exact path="/about" element={<About />}>
+        </Route>
 
-          </Route>
-          <Route exact path="/course" element={<Course />}>
+        <Route exact path="/about" element={<About />}>
 
-          </Route>
-          <Route exact path="/roadmap" element={<RoadMap />}>
+        </Route>
+        <Route exact path="/course" element={<Course />}>
 
-          </Route>
+        </Route>
+        <Route exact path="/roadmap" element={<RoadMap />}>
 
-          <Route exact path="/contact" element={<Contact />}>
+        </Route>
 
-          </Route>
+        <Route exact path="/contact" element={<Contact />}>
 
-        </Routes>
-        <Footer />
-      </ThemeProvider>
+        </Route>
+
+      </Routes>
+      <Footer />
+ 
 
 
 
