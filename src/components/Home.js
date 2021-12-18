@@ -4,7 +4,8 @@ import logo from '../image/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import '../mobile.css';
-import '../roadMap.scss';
+// import '../roadMap.scss';
+// import '../slider.scss';
 
 const Home = () => {
 
@@ -37,7 +38,11 @@ const Home = () => {
                 </div>
 
             </section>
-         
+            <section>
+                
+            </section>
+           
+
 
 
 
