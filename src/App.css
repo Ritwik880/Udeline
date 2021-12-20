@@ -5,11 +5,64 @@
     font-weight: 300;
     scroll-snap-align: start;
 }
-/* header {
-    display: flex;
-    justify-content: flex-end;
-    padding: 30px;
-  } */
+:root {
+    --bgcolor: #f1f5fd;
+    /* --primary-color: #6f5de7; */
+    --primary-color: #34495e;
+    --text-color: #828286;
+    --main-text-color: #333333;
+  }
+  .second_home {
+    width: 519px;
+    padding-top: 21% !important;
+}
+.main-header{
+    background-color: #00cec9;
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 999 !important;
+}
+.aagam-btn-primary{
+    color: #FFFFFF !important;
+    background: #008080 !important;
+    border-color: #FFFFFF00 !important;
+    border-radius: 4px 4px 4px 4px !important;
+    text-decoration: none;
+    padding: 10px 12px;
+}
+.btn-style {
+    width: 111px;
+    height: 3rem;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: var(--primary-color);
+    text-transform: capitalize;
+    font-size: 16px;
+}
+  
+  .btn-style:first-child {
+    margin-right: 2rem;
+  }
+  
+  .btn-style:hover {
+    border: 0.1rem solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+  }
+  
+  .btn-style-border {
+    border: 0.1rem solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+  }
+  
+  .btn-style-border:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    text-transform: capitalize;
+  }
   
   .switch {
     width: 80px;
@@ -34,7 +87,7 @@
   }
   
   .dark {
-    background-color: rgb(57, 57, 57);
+    background-color: rgb(57, 57, 57) !important;
     transition: 0.3s;
   }
   
@@ -86,7 +139,7 @@ ul li a{
    
 
 }
-.btn {
+/* .btn {
     background: #2BC790 !important;
     color: white !important;
     padding: 10px 20px !important;
@@ -99,7 +152,7 @@ ul li a{
 
 .btn:hover {
     padding: 10px 40px !important;
-}
+} */
 .aagam-landing-text {
     padding-top: 88px !important;
 }

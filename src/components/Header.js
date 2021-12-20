@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navbar, Nav, Container, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Nav, Container, Form, Modal, Button } from 'react-bootstrap';
 import { NavLink } from "react-router-dom";
 import logo from '../image/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,18 +7,18 @@ import '../App.css';
 // import theme from '../components/theme'
 
 const Header = () => {
-    window.onload = function () {
+    // window.onload = function () {
 
 
-        const switchElement = document.querySelector('.switch')
+    //     const switchElement = document.querySelector('.switch')
 
-        switchElement.addEventListener('click', () => {
-            document.body.classList.toggle('dark')
-        })
-    }
+    //     switchElement.addEventListener('click', () => {
+    //         document.body.classList.toggle('dark')
+    //     })
+    // }
     const header = {
         // backgroundColor: "#e3f2fd",
-        backgroundColor: "#00cec9",
+        // backgroundColor: "#00cec9",
         position: "fixed",
         width: "100%",
         zIndex: '999'
@@ -26,13 +26,17 @@ const Header = () => {
     };
     const navlink = {
         textDecoration: 'none',
-        color: 'rgba(0,0,0,.55)',
+        // color: 'rgba(0,0,0,.55)',
     };
 
     function themeToggler() {
         var element = document.body;
         element.classList.toggle("dark-mode");
     }
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
 
 
@@ -41,12 +45,12 @@ const Header = () => {
         <>
 
             {/* <ThemeProvider theme={themes[theme]}> */}
-            <Navbar style={header} expand="lg">
+            <Navbar className='main-header' expand="lg">
                 <Container>
                     <Navbar.Brand to="/"><img src={logo} /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto">
+                        <Nav className="m-auto">
                             <NavLink style={navlink} to="/" className="link" activeClassName="active">Home</NavLink >
                             <NavLink style={navlink} to="/about" className="link">About</NavLink >
                             <NavLink style={navlink} to="/course" className="link">Courses</NavLink >
@@ -55,19 +59,23 @@ const Header = () => {
 
                         </Nav>
                         <Form className="d-flex">
-                            <div class="switch">
-                                <div class="flicker"></div>
-                                <div class="moon"></div>
-                            </div>
 
-                            {/* <Button onClick={() => themeToggler()} variant="outline-success">Toggle</Button> */}
+                            <button class="btn1 btn-style" type="submit">
+                                Sign Up
+                            </button>
+                            <button class="btn1 btn-style btn-style-border" type="submit">
+                                Log in
+                            </button>
 
 
                         </Form>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            {/* </ThemeProvider> */}
+            {/* <div className="card-header text-center">
+                <h2 className="display-3">Our Team</h2>
+            </div> */}
+          
 
 
         </>

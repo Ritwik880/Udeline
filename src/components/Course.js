@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Button, Container, NavDropdown } from 'react-bootstrap';
+import physics from '../image/physics.jpg'
 import '../index.css'
 const Course = () => {
     const buyCourse = {
@@ -10,7 +11,7 @@ const Course = () => {
     }
     const subHead = {
         textAlign: 'center',
-        backgroundColor: 'antiquewhite'
+        backgroundColor: '#9b59b6'
     }
     return (
         <>
@@ -35,44 +36,20 @@ const Course = () => {
                 <ul class="cards fadeInUp animated animatedFadeInUp" data-aos="fade-up">
                     <li class="cards_item">
                         <div class="card">
-                            <div class="card_image"><img src="https://source.unsplash.com/500x250/?coding" /></div>
+                            <div class="card_image"><img src={physics} /></div>
                             <div class="card_content">
-                                <h2 class="card_title">Test</h2>
-                                <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt provident dolore tenetur iste nesciunt repellendus reprehenderit minus odio cum commodi assumenda, ipsam tempore itaque necessitatibus beatae veritatis quas recusandae? Sint.
-                                </p>
+                                <h2 class="card_title">Physics Term 2 Crash Course</h2>
+                                <li>Live Classes</li>
+                                <li>Doubt Classes every sunday</li>
+                                <li>Personalised Guidance</li>
+                                <li>Mentors</li>
+                                <li>Feedbacks after every class</li>
+                                <li></li>
                                 <button type="button" class="btn btn-primary">Buy Now</button>
-
-
-
-
                             </div>
                         </div>
                     </li>
-                    <li class="cards_item">
-                        <div class="card">
-                            <div class="card_image"><img src="https://source.unsplash.com/500x250/?javascript" /></div>
-                            <div class="card_content">
-                                <h2 class="card_title">Test</h2>
-                                <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt provident dolore tenetur iste nesciunt repellendus reprehenderit minus odio cum commodi assumenda, ipsam tempore itaque necessitatibus beatae veritatis quas recusandae? Sint.
-                                </p>
-                                <button type="button" class="btn btn-primary">Buy Now</button>
-
-                            </div>
-                        </div>
-                    </li>
-                    <li class="cards_item">
-                        <div class="card">
-                            <div class="card_image"><img src="https://source.unsplash.com/500x250/?Gaming" /></div>
-                            <div class="card_content">
-                                <h2 class="card_title">Test</h2>
-                                <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt provident dolore tenetur iste nesciunt repellendus reprehenderit minus odio cum commodi assumenda, ipsam tempore itaque necessitatibus beatae veritatis quas recusandae? Sint.
-                                </p>
-                                <button type="button" class="btn btn-primary">Buy Now</button>
-
-
-                            </div>
-                        </div>
-                    </li>
+                  
 
                 </ul>
             </div>

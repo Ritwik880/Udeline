@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import logo from '../image/logo.png';
+import wedo from '../image/wedo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import '../mobile.css';
@@ -8,7 +9,9 @@ import '../mobile.css';
 // import '../slider.scss';
 
 const Home = () => {
-
+const second_section = {
+    backgroundColor: '#f9f8f8'
+}
 
     return (
         <>
@@ -38,9 +41,37 @@ const Home = () => {
                 </div>
 
             </section>
-            <section>
-                
+            <section style={second_section} name="Landing" class="aagam-landing-section container py-5 pb-0 my-4">
+                <div className="row">
+                    <div className="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0">
+                    <img className='second_home' src={wedo} />
+                       
+                    </div>
+                    <div class="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0 padding-none-m">
+                    <div class="my-5 py-5 aagam-landing-text ">
+                            <h1 class="dinot-haeding header">What We Do?
+
+                            </h1>
+                            <li>We create a safe space for you by giving live classes by our experienced educators. </li>
+                            <li>Get hassle free education not only at your fingertips but also at the comfort of your own home. </li>
+                            <li>We also provide you one on one paid personalized paid tutoring at your own timing.</li>
+                            <li>Udeline accompanies you during your college selection procedure. </li>
+                            {/* <p class="pt-4">Udeline is India`s largest and fastest-growing community of technology innovators including startups and student innovators.
+                            </p> */}
+                            <div class="d-flex pt-4 d-none d-lg-block d-xl-block d-md-block">
+                                <a href="/course" class="mr-2 aagam-btn-primary">Join Us</a>
+
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="arrow-right"></div>
+
+                </div>
+
             </section>
+         
+           
            
 
 

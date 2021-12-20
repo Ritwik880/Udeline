@@ -78,7 +78,7 @@ const RoadMap = () => {
                             <h1 class="dinot-haeding header">Timeline
 
                             </h1>
-                            <p class="pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quisquam autem minima tempore, unde provident at culpa itaque nemo dignissimos sapiente perspiciatis vel expedita laboriosam vitae! Fuga nihil omnis accusamus.
+                            <p class="pt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nulla inventore fuga.
                             </p>
                             {/* <div class="d-flex pt-4 d-none d-lg-block d-xl-block d-md-block">
                                 <a href="/course" class="btn btn-primary mr-2 aagam-btn-primary">Get Started</a>
