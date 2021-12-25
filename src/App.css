@@ -114,7 +114,8 @@
 }
 .navbar-brand img{
     padding-left: 5px;
-    width: 90px;
+    width: 150px;
+    height: 60px;
 }
 ul li a{
     margin: 5px;

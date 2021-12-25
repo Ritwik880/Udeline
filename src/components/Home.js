@@ -33,7 +33,7 @@ const second_section = {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0 padding-none-m">
+                    <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center p-5 pb-0 padding-none-m">
                         <img class="home-image" src={logo} />
                     </div>
                     <div class="arrow-right"></div>
