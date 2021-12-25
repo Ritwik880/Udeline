@@ -154,6 +154,23 @@ ul li a{
 .btn:hover {
     padding: 10px 40px !important;
 } */
+
+/* preloder styling */
+
+.preloder{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preloder h1{
+    color: #172b4d;
+}
+.preloder h3{
+    color: #ff0022;
+}
+
 .aagam-landing-text {
     padding-top: 88px !important;
 }
