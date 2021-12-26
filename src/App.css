@@ -16,12 +16,12 @@
     width: 519px;
     padding-top: 21% !important;
 }
-.main-header{
+/* .main-header{
     background-color: #00cec9;
     position: fixed !important;
     width: 100% !important;
     z-index: 999 !important;
-}
+} */
 .aagam-btn-primary{
     color: #FFFFFF !important;
     background: #008080 !important;
@@ -108,9 +108,11 @@
    color:rgb(255, 255, 255);
   }
 .navbar{
-    position: fixed;
-    width: 100%;
+    /* position: fixed;
+    width: 100%; */
+    background-color: #00cec9 !important;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px !important;
+    z-index: 999 !important;
 }
 .navbar-brand img{
     padding-left: 5px;
@@ -124,13 +126,13 @@ ul li a{
     background-color: #82ccdd !important;
    
 }
-.link {
+.nav-link {
     font-weight: bold !important;
     padding: 15px !important;
     margin: 15px;
     color: #000 !important;
 }
-.link:hover{
+.nav-link:hover{
     background-color: #82ccdd;
     /* background-color: #2d3436; */
     /* background-color: #0984e3; */
@@ -166,9 +168,11 @@ ul li a{
 }
 .preloder h1{
     color: #172b4d;
+    text-align: center;
 }
 .preloder h3{
     color: #ff0022;
+    text-align: center;
 }
 
 .aagam-landing-text {
@@ -228,7 +232,6 @@ ul li a{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
     transition: all .15s ease;
 }
 .card-profile-image img {

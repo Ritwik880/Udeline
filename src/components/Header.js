@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Navbar, Nav, Container, Form, Modal, Button } from 'react-bootstrap';
 import { NavLink } from "react-router-dom";
+import { LinkContainer } from 'react-router-bootstrap';
 import logo from '../image/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
@@ -44,18 +45,28 @@ const Header = () => {
     return (
         <>
 
-            {/* <ThemeProvider theme={themes[theme]}> */}
-            <Navbar className='main-header' expand="lg">
+
+            <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top">
                 <Container>
-                    <Navbar.Brand to="/"><img src={logo} /></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Navbar.Brand href="#"><img src={logo} /></Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="m-auto">
-                            <NavLink style={navlink} to="/" className="link" activeClassName="active">Home</NavLink >
-                            <NavLink style={navlink} to="/about" className="link">About</NavLink >
-                            <NavLink style={navlink} to="/course" className="link">Courses</NavLink >
-                            <NavLink style={navlink} to="/roadmap" className="link">RoadMap</NavLink >
-                            <NavLink style={navlink} to="/contact" className="link">Contact Us</NavLink >
+                            <LinkContainer to="/">
+                                <Nav.Link>Home</Nav.Link>
+                            </LinkContainer>
+                            <LinkContainer to="/about">
+                                <Nav.Link>About</Nav.Link>
+                            </LinkContainer>
+                            <LinkContainer to="/course">
+                                <Nav.Link>Courses</Nav.Link>
+                            </LinkContainer>
+                            <LinkContainer to="/roadmap">
+                                <Nav.Link>RoadMap</Nav.Link>
+                            </LinkContainer>
+                            <LinkContainer to="/contact">
+                                <Nav.Link>Contact</Nav.Link>
+                            </LinkContainer>
 
                         </Nav>
                         <Form className="d-flex">
@@ -69,14 +80,10 @@ const Header = () => {
 
 
                         </Form>
+
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            {/* <div className="card-header text-center">
-                <h2 className="display-3">Our Team</h2>
-            </div> */}
-          
-
 
         </>
     );
