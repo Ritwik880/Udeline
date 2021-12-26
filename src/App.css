@@ -240,8 +240,14 @@ ul li a{
     border: 3px solid #fff;
     border-radius: 0.375rem;
 }
-.card-profile-image img:hover {
+/* .card-profile-image img:hover {
     transform: translate(-50%,-50%) scale(1.03);
+} */
+.card-profile{
+    height: 200px !important;
+}
+.card-content{
+    margin-top: 37% !important;
 }
 .shadow{
     transition: transform 0.5s;
@@ -253,17 +259,3 @@ ul li a{
     transform: translateY(-10px);
 }
 
-footer{
-    position: relative;
-    bottom: 0;
-    background-color: #00cec9 !important;
-    
-}
-footer p{
-    color: black;
-}
-footer p a{
-    color: black;
-    text-decoration: none;
-    padding: 4px;
-}

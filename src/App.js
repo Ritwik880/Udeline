@@ -12,13 +12,16 @@ import RoadMap from './components/RoadMap'
 import { ThemeProvider } from "styled-components";
 
 const App = () => {
+  const heading ={
+    textAlign: 'center'
+  }
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 3000) //3 secs
+    }, 2000) //3 secs
   }, [])
   return (
     <>
@@ -26,7 +29,7 @@ const App = () => {
         loading ?
           <div className="preloder">
             <div className="preloder-content">
-              <h1>Udeline</h1>
+              <h1 style={heading}>Udeline</h1>
               <h3>The one behind every great one</h3>
             </div>
           </div>

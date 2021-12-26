@@ -1,13 +1,23 @@
 import React from 'react'
 import '../App.css'
+import saurab from '../image/saurab.jpg'
+import nishant from '../image/nishant.jpeg'
+import anmol from '../image/anmol.jpg'
+import ritwik from '../image/ritwik.jpg'
 const About = () => {
     const image = {
         width: '100px',
         borderRadius: '50%'
 
     }
-    const text = {
+    const container = {
+        // height: '100px'
         
+    }
+    const text ={
+        // marginTop: '10%'
+        
+
     }
 
 
@@ -41,7 +51,7 @@ const About = () => {
                             <div class="row mt-5 justify-content-center">
                             <div class="col-lg-4">
                                     <div class="card-body text-center pb-3">
-                                        <div class="container">
+                                        <div class="container" style={container}>
                                             <div class="card card-profile shadow">
                                                 <div class="px-3">
                                                     <div class="row justify-content-center">
@@ -53,11 +63,11 @@ const About = () => {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="text-center mt-5 pb-3">
+                                                    <div class="text-center pb-3 card-content">
                                                         <h3>Joysri Talukdar</h3>
-                                                        <div class="h5 font-weight-400">Founder</div>
-                                                        <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
-                                                        </small>
+                                                        <div class="h5 font-weight-400">CEO</div>
+                                                        {/* <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
+                                                        </small> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -73,16 +83,16 @@ const About = () => {
                                                         <div class="col-lg-3 order-lg-2">
                                                             <div class="card-profile-image">
                                                                 <a href="https://www.linkedin.com/in/saurabh-patel-ba7686179/">
-                                                                    {/* <img src={saurab} style={image} /> */}
+                                                                    <img src={saurab} style={image} />
                                                                 </a>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="text-center mt-5 pb-3" style={text}>
+                                                    <div class="text-center pb-3 card-content" style={text}>
                                                         <h3>Saurabh patel</h3>
-                                                        <div class="h5 font-weight-400">Co-Founder</div>
-                                                        <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
-                                                        </small>
+                                                        <div class="h5 font-weight-400">CTO</div>
+                                                        {/* <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
+                                                        </small> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -98,16 +108,16 @@ const About = () => {
                                                         <div class="col-lg-3 order-lg-2">
                                                             <div class="card-profile-image">
                                                                 <a href="https://www.linkedin.com/in/samkitsharma/">
-                                                                    {/* <img src={anmol} style={image}  /> */}
+                                                                    <img src={anmol} style={image}  />
                                                                 </a>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="text-center mt-5 pb-3">
+                                                    <div class="text-center pb-3 card-content">
                                                         <h3>Anmol Raj</h3>
-                                                        <div class="h5 font-weight-400">Co-Founder</div>
-                                                        <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
-                                                        </small>
+                                                        <div class="h5 font-weight-400">Hr & Marketing</div>
+                                                        {/* <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
+                                                        </small> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -123,16 +133,16 @@ const About = () => {
                                                         <div class="col-lg-3 order-lg-2">
                                                             <div class="card-profile-image">
                                                                 <a href="https://www.linkedin.com/in/samkitsharma/">
-                                                                    {/* <img src={nishant} style={image}  /> */}
+                                                                    <img src={nishant} style={image}  />
                                                                 </a>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="text-center mt-5 pb-3">
+                                                    <div class="text-center pb-3 card-content">
                                                         <h3>Nishant Kumar</h3>
-                                                        <div class="h5 font-weight-400">Co-Founder</div>
-                                                        <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
-                                                        </small>
+                                                        <div class="h5 font-weight-400">Mentor</div>
+                                                        {/* <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
+                                                        </small> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -150,16 +160,16 @@ const About = () => {
                                                         <div class="col-lg-3 order-lg-2">
                                                             <div class="card-profile-image">
                                                                 <a href="https://www.linkedin.com/in/samkitsharma/">
-                                                                    {/* <img src={nishant} style={image}  /> */}
+                                                                    <img src={ritwik} style={image}  />
                                                                 </a>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="text-center mt-5 pb-3">
+                                                    <div class="text-center pb-3 card-content">
                                                         <h3>Ritwik</h3>
                                                         <div class="h5 font-weight-400">Co-Founder</div>
-                                                        <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
-                                                        </small>
+                                                        {/* <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
+                                                        </small> */}
                                                     </div>
                                                 </div>
                                             </div>

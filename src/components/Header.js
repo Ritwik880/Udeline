@@ -7,18 +7,9 @@ import '../App.css';
 // import theme from '../components/theme'
 
 const Header = () => {
-    // window.onload = function () {
-
-
-    //     const switchElement = document.querySelector('.switch')
-
-    //     switchElement.addEventListener('click', () => {
-    //         document.body.classList.toggle('dark')
-    //     })
-    // }
+    
     const header = {
-        // backgroundColor: "#e3f2fd",
-        // backgroundColor: "#00cec9",
+        
         position: "fixed",
         width: "100%",
         zIndex: '999'

@@ -80,32 +80,11 @@ const RoadMap = () => {
                             </h1>
                             <p class="pt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nulla inventore fuga.
                             </p>
-                            {/* <div class="d-flex pt-4 d-none d-lg-block d-xl-block d-md-block">
-                                <a href="/course" class="btn btn-primary mr-2 aagam-btn-primary">Get Started</a>
-
-                            </div> */}
+                          
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0 padding-none-m my-3">
-                        {/* <Carousel fade>
-                            <Carousel.Item>
-                                <img
-                                    className="d-block landing-image"
-                                    src="https://source.unsplash.com/480x300/?Timeline"
-                                    alt="First slide"
-                                />
-
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                    className="d-block landing-image"
-                                    src="https://source.unsplash.com/480x300/?Course"
-                                    alt="Second slide"
-                                />
-
-                            </Carousel.Item>
-
-                        </Carousel> */}
+                       
                         <img class="landing-image" src='https://source.unsplash.com/350x300/?Timeline' />
                     </div>
                     <div class="arrow-right"></div>
