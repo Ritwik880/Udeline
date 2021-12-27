@@ -9,8 +9,14 @@ import '../mobile.css';
 // import '../slider.scss';
 
 const Home = () => {
+    const firstSection = {
+        height: '100vh'
+    }
 const second_section = {
     backgroundColor: '#f9f8f8'
+}
+const firstSectionRow = {
+    marginTop: '8%'
 }
 
     return (
@@ -18,8 +24,8 @@ const second_section = {
             {/* <Header /> */}
 
 
-            <section name="Landing" class="aagam-landing-section container py-5 pb-0">
-                <div class="row">
+            <section style={firstSection} name="Landing" class="aagam-landing-section container py-5 pb-0">
+                <div class="row" style={firstSectionRow}>
                     <div class="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0">
                         <div class="my-5 py-5 aagam-landing-text ">
                             <h1 class="dinot-haeding header">Udeline

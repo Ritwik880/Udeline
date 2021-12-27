@@ -1,9 +1,13 @@
 import React from 'react'
 import '../App.css'
+import '../team.css'
 import saurab from '../image/saurab.jpg'
 import nishant from '../image/nishant.jpeg'
 import anmol from '../image/anmol.jpg'
 import ritwik from '../image/ritwik.jpg'
+import ayush from '../image/ayush.jpeg'
+import joyshri from '../image/joyshri.jpeg'
+
 const About = () => {
     const image = {
         width: '100px',
@@ -12,11 +16,11 @@ const About = () => {
     }
     const container = {
         // height: '100px'
-        
+
     }
-    const text ={
+    const text = {
         // marginTop: '10%'
-        
+
 
     }
 
@@ -37,150 +41,48 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-12 card-wrapper ct-example">
-
-                    <div class="card">
-                        <div class="card-header text-center">
-                            <h2 class="display-3">Our Team</h2>
-                        </div>
-
-
-
-                        <div class="col-lg-12 justify-content-between about-us">
-                            <div class="row mt-5 justify-content-center">
-                            <div class="col-lg-4">
-                                    <div class="card-body text-center pb-3">
-                                        <div class="container" style={container}>
-                                            <div class="card card-profile shadow">
-                                                <div class="px-3">
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-lg-3 order-lg-2">
-                                                            <div class="card-profile-image">
-                                                                <a href="https://www.linkedin.com/in/samkitsharma/">
-                                                                    {/* <img src={nishant} style={image}  /> */}
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="text-center pb-3 card-content">
-                                                        <h3>Joysri Talukdar</h3>
-                                                        <div class="h5 font-weight-400">CEO</div>
-                                                        {/* <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
-                                                        </small> */}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="card-body text-center pb-3">
-                                        <div class="container">
-                                            <div class="card card-profile shadow">
-                                                <div class="px-3">
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-lg-3 order-lg-2">
-                                                            <div class="card-profile-image">
-                                                                <a href="https://www.linkedin.com/in/saurabh-patel-ba7686179/">
-                                                                    <img src={saurab} style={image} />
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="text-center pb-3 card-content" style={text}>
-                                                        <h3>Saurabh patel</h3>
-                                                        <div class="h5 font-weight-400">CTO</div>
-                                                        {/* <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
-                                                        </small> */}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="card-body text-center pb-3">
-                                        <div class="container">
-                                            <div class="card card-profile shadow">
-                                                <div class="px-3">
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-lg-3 order-lg-2">
-                                                            <div class="card-profile-image">
-                                                                <a href="https://www.linkedin.com/in/samkitsharma/">
-                                                                    <img src={anmol} style={image}  />
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="text-center pb-3 card-content">
-                                                        <h3>Anmol Raj</h3>
-                                                        <div class="h5 font-weight-400">Hr & Marketing</div>
-                                                        {/* <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
-                                                        </small> */}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="card-body text-center pb-3">
-                                        <div class="container">
-                                            <div class="card card-profile shadow">
-                                                <div class="px-3">
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-lg-3 order-lg-2">
-                                                            <div class="card-profile-image">
-                                                                <a href="https://www.linkedin.com/in/samkitsharma/">
-                                                                    <img src={nishant} style={image}  />
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="text-center pb-3 card-content">
-                                                        <h3>Nishant Kumar</h3>
-                                                        <div class="h5 font-weight-400">Mentor</div>
-                                                        {/* <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
-                                                        </small> */}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                             
-                             
-                                <div class="col-lg-4">
-                                    <div class="card-body text-center pb-3">
-                                        <div class="container">
-                                            <div class="card card-profile shadow">
-                                                <div class="px-3">
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-lg-3 order-lg-2">
-                                                            <div class="card-profile-image">
-                                                                <a href="https://www.linkedin.com/in/samkitsharma/">
-                                                                    <img src={ritwik} style={image}  />
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="text-center pb-3 card-content">
-                                                        <h3>Ritwik</h3>
-                                                        <div class="h5 font-weight-400">Co-Founder</div>
-                                                        {/* <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reiciendis, ullam vero quo doloremque vitae quibusdam officia eligendi minima, magni incidunt veniam rem ratione quam, eum architecto doloribus dolorem quas.
-                                                        </small> */}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <section className='teamSection'>
+                <h1 class="title">our team</h1>
+                <input type="radio" name="dot" id="one" />
+                <input type="radio" name="dot" id="two" />
+                <div class="team-row">
+                    <div class="member">
+                        <img src={joyshri} alt="" />
+                        <h2>Joysri Talukdar</h2>
+                        <p>CEO</p>
                     </div>
+                    <div class="member">
+                        <img src={saurab} alt="" />
+                        <h2>Saurab Patel</h2>
+                        <p>SDE at Accenture</p>
+                    </div>
+                    <div class="member">
+                        <img src={nishant} alt="" />
+                        <h2>Nishant Kumar</h2>
+                        <p>Mentor</p>
+                    </div>
+                    <div class="member">
+                        <img src={anmol} alt="" />
+                        <h2>Anmol Raj</h2>
+                        <p>Hr & Marketing</p>
+                    </div>
+                    <div class="member">
+                        <img src={ayush} alt="" />
+                        <h2>Ayush</h2>
+                        <p>Co-Founder</p>
+                    </div>
+                    <div class="member">
+                        <img src={ritwik} alt="" />
+                        <h2>Ritwik Sinha</h2>
+                        <p>Co-Founder</p>
+                    </div>
+
                 </div>
-            </div>
+                <div class="button">
+                    <label for="one" class=" active one"></label>
+                    <label for="two" class="two"></label>
+                </div>
+            </section>
 
 
 
