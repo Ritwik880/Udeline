@@ -4,7 +4,7 @@
         padding: 2% !important;
     } */
     .landing-image {
-        width: 84% !important;
+        width: 100% !important;
         margin-top: -52% !important;
         padding-top: -10% !important;
     }
@@ -13,7 +13,7 @@
     }
     .contact-image {
         /* height: 10% !important; */
-        width: 277px !important;
+        width: 400px !important;
         padding-top: -34% !important;
         /* margin-top: -3% !important; */
         padding-right: 21% !important;
@@ -21,13 +21,17 @@
     .course{
         min-height: 472px !important;      
     }
-    .course-grad{
-        /* background: linear-gradient(87deg,#A9F1DF 0,#FFBBBB 100%)!important; */
-        /* min-height: 472px !important;   */
-    }
-    .landing-image{
-        /* margin-top: 7% !important; */
+    /* .course-grad{
+        background: linear-gradient(87deg,#A9F1DF 0,#FFBBBB 100%)!important;
+        min-height: 472px !important;  
+    } */
+    /* .landing-image{
+        margin-top: 7% !important;
        
        
+    } */
+    .second_home,
+    .home-image {
+        width: 320px;
     }
 }
