@@ -39,6 +39,10 @@
     background-color: var(--primary-color);
     text-transform: capitalize;
     font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 4% !important;
+    /* margin: auto; */
 }
   
   .btn-style:first-child {
@@ -50,6 +54,8 @@
     background-color: transparent;
     color: var(--primary-color);
     box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+    text-decoration: none;
+
   }
   
   .btn-style-border {

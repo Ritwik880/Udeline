@@ -7,35 +7,9 @@ import '../App.css';
 // import theme from '../components/theme'
 
 const Header = () => {
-    
-    const header = {
-        
-        position: "fixed",
-        width: "100%",
-        zIndex: '999'
-
-    };
-    const navlink = {
-        textDecoration: 'none',
-        // color: 'rgba(0,0,0,.55)',
-    };
-
-    function themeToggler() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
-    }
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
-
-
 
     return (
         <>
-
-
             <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top">
                 <Container>
                     <Navbar.Brand href="#"><img src={logo} /></Navbar.Brand>
@@ -61,12 +35,13 @@ const Header = () => {
                         </Nav>
                         <Form className="d-flex">
 
-                            <button class="btn1 btn-style" type="submit">
+                            <a class="btn1 btn-style" type="submit" href="/signup">
                                 Sign Up
-                            </button>
-                            <button class="btn1 btn-style btn-style-border" type="submit">
+                            </a>
+
+                            <a class="btn1 btn-style btn-style-border" type="submit" href="/login">
                                 Log in
-                            </button>
+                            </a>
 
 
                         </Form>
