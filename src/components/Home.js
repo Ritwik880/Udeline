@@ -1,23 +1,21 @@
 import React from 'react'
-import Header from './Header'
 import logo from '../image/logo.png';
 import wedo from '../image/wedo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import '../mobile.css';
-// import '../roadMap.scss';
-// import '../slider.scss';
+
 
 const Home = () => {
     const firstSection = {
         height: '100vh'
     }
-const second_section = {
-    backgroundColor: '#f9f8f8'
-}
-const firstSectionRow = {
-    marginTop: '8%'
-}
+    const second_section = {
+        backgroundColor: '#f9f8f8'
+    }
+    const firstSectionRow = {
+        marginTop: '8%'
+    }
 
     return (
         <>
@@ -40,7 +38,7 @@ const firstSectionRow = {
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center p-5 pb-0 padding-none-m">
-                        <img class="home-image" src={logo} />
+                        <img class="home-image" src={logo} alt='home-img' />
                     </div>
                     <div class="arrow-right"></div>
 
@@ -50,11 +48,11 @@ const firstSectionRow = {
             <section style={second_section} name="Landing" class="aagam-landing-section container py-5 pb-0 my-4">
                 <div className="row">
                     <div className="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0">
-                    <img className='second_home' src={wedo} />
-                       
+                        <img className='second_home' src={wedo} alt='second-img' />
+
                     </div>
                     <div class="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0 padding-none-m">
-                    <div class="my-5 py-5 aagam-landing-text ">
+                        <div class="my-5 py-5 aagam-landing-text ">
                             <h1 class="dinot-haeding header">What We Do?
 
                             </h1>
@@ -69,16 +67,16 @@ const firstSectionRow = {
 
                             </div>
                         </div>
-                       
+
                     </div>
                     <div class="arrow-right"></div>
 
                 </div>
 
             </section>
-         
-           
-           
+
+
+
 
 
 

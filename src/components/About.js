@@ -10,28 +10,14 @@ import joyshri from '../image/joyshri.jpeg'
 import akash from '../image/akash.jpeg'
 
 const About = () => {
-    const image = {
-        width: '100px',
-        borderRadius: '50%'
-
-    }
-    const container = {
-        // height: '100px'
-
-    }
-    const text = {
-        // marginTop: '10%'
-
-
-    }
-
+    
 
 
     return (
         <>
             <div className="header pb-6 d-flex align-items-center about">
 
-                <span className="mask opacity-7" id='bg-gradient-default'></span>
+                <span className="mask bg-gradient-default opacity-7"></span>
                 <div className="container d-flex align-items-center">
                     <div className="text-white mx-auto mt-5 upper">
                         <div className="display-2 text-center">
@@ -48,37 +34,37 @@ const About = () => {
                 <input type="radio" name="dot" id="two" />
                 <div class="team-row">
                     <div class="member">
-                        <img src={joyshri} alt="" />
+                        <img src={joyshri} alt="joyshri image" />
                         <h2>Joysri Talukdar</h2>
                         <p>CEO & Founder</p>
                     </div>
                     <div class="member">
-                        <img src={saurab} alt="" />
+                        <img src={saurab} alt="joyshri image" />
                         <h2>Saurab Patel</h2>
                         <p>Cio</p>
                     </div>
                     <div class="member">
-                        <img src={nishant} alt="" />
+                        <img src={nishant} alt="joyshri image" />
                         <h2>Nishant Kumar</h2>
                         <p>Founder Educator</p>
                     </div>
                     <div class="member">
-                        <img src={anmol} alt="" />
+                        <img src={anmol} alt="joyshri image" />
                         <h2>Anmol Raj</h2>
                         <p>Company Adviser</p>
                     </div>
                     <div class="member">
-                        <img src={ayush} alt="" />
+                        <img src={ayush} alt="joyshri image" />
                         <h2>Ayush Sharma</h2>
                         <p>CMO</p>
                     </div>
                     <div class="member">
-                        <img src={ritwik} alt="" />
+                        <img src={ritwik} alt="joyshri image" />
                         <h2>Ritwik Sinha</h2>
                         <p>Cto</p>
                     </div>
                     <div class="member">
-                        <img src={akash} alt="" />
+                        <img src={akash} alt="joyshri image" />
                         <h2>Akash</h2>
                         <p>Content Manager</p>
                     </div>

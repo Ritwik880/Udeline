@@ -1,18 +1,9 @@
 import React from 'react'
-import { Card, Button, Container, NavDropdown } from 'react-bootstrap';
+// import { Card, Button, Container, NavDropdown } from 'react-bootstrap';
 import physics from '../image/physics.jpg'
 import '../index.css'
 const Course = () => {
-    const buyCourse = {
-        // height: '300px',
-        // backgroundColor: '#e9ecef',
-        // // color: '#000'
-        // textDecoration: 'underline'
-    }
-    const subHead = {
-        textAlign: 'center',
-        backgroundColor: '#9b59b6'
-    }
+ 
     return (
         <>
             <div className="header pb-6 d-flex align-items-center course">
@@ -45,7 +36,7 @@ const Course = () => {
                                 <li>Mentors</li>
                                 <li>Feedbacks after every class</li>
                                 <li></li>
-                                <button type="button" class="btn btn-primary">Buy Now</button>
+                                <button type="button" class="price">Rs. 999</button>
                             </div>
                         </div>
                     </li>

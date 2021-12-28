@@ -224,7 +224,7 @@ ul li a{
 .course-grad{
     background: linear-gradient(47deg,#A9F1DF 0,#635b5b 100%)!important;
 }
-#bg-gradient-default {
+.bg-gradient-default {
     background: linear-gradient(87deg,#172b4d 0,#1a174d 100%)!important;
 }
 .mask {
