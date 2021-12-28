@@ -30,7 +30,7 @@ const Course = () => {
                 </div>
             </div>
             <div class="container my-4">
-                <h1 style={subHead} className='subHead'>OUR COURSES</h1>
+                {/* <h1 style={subHead} className='subHead'>OUR COURSES</h1> */}
 
 
                 <ul class="cards fadeInUp animated animatedFadeInUp" data-aos="fade-up">

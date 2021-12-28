@@ -7,6 +7,7 @@ import anmol from '../image/anmol.jpg'
 import ritwik from '../image/ritwik.jpg'
 import ayush from '../image/ayush.jpeg'
 import joyshri from '../image/joyshri.jpeg'
+import akash from '../image/akash.jpeg'
 
 const About = () => {
     const image = {
@@ -30,7 +31,7 @@ const About = () => {
         <>
             <div className="header pb-6 d-flex align-items-center about">
 
-                <span className="mask bg-gradient-default opacity-7"></span>
+                <span className="mask opacity-7" id='bg-gradient-default'></span>
                 <div className="container d-flex align-items-center">
                     <div className="text-white mx-auto mt-5 upper">
                         <div className="display-2 text-center">
@@ -42,39 +43,44 @@ const About = () => {
                 </div>
             </div>
             <section className='teamSection'>
-                <h1 class="title">our team</h1>
+                <h1 class="title">our Mentor</h1>
                 <input type="radio" name="dot" id="one" />
                 <input type="radio" name="dot" id="two" />
                 <div class="team-row">
                     <div class="member">
                         <img src={joyshri} alt="" />
                         <h2>Joysri Talukdar</h2>
-                        <p>CEO</p>
+                        <p>CEO & Founder</p>
                     </div>
                     <div class="member">
                         <img src={saurab} alt="" />
                         <h2>Saurab Patel</h2>
-                        <p>SDE at Accenture</p>
+                        <p>Cio</p>
                     </div>
                     <div class="member">
                         <img src={nishant} alt="" />
                         <h2>Nishant Kumar</h2>
-                        <p>Mentor</p>
+                        <p>Founder Educator</p>
                     </div>
                     <div class="member">
                         <img src={anmol} alt="" />
                         <h2>Anmol Raj</h2>
-                        <p>Hr & Marketing</p>
+                        <p>Company Adviser</p>
                     </div>
                     <div class="member">
                         <img src={ayush} alt="" />
-                        <h2>Ayush</h2>
-                        <p>Co-Founder</p>
+                        <h2>Ayush Sharma</h2>
+                        <p>CMO</p>
                     </div>
                     <div class="member">
                         <img src={ritwik} alt="" />
                         <h2>Ritwik Sinha</h2>
-                        <p>Co-Founder</p>
+                        <p>Cto</p>
+                    </div>
+                    <div class="member">
+                        <img src={akash} alt="" />
+                        <h2>Akash</h2>
+                        <p>Content Manager</p>
                     </div>
 
                 </div>
