@@ -3,8 +3,7 @@ import './App.css';
 // import { Route } from 'react-router-dom';
 import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
-import Signup from "./components/Signup";
-import Login from "./components/Login";
+
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -59,13 +58,7 @@ const App = () => {
 
               </Route>
               
-              <Route exact path="/signup" element={<Signup />}>
-
-              </Route>
-              
-              <Route exact path="/login" element={<Login />}>
-
-              </Route>
+             
 
             </Routes>
             <Footer />

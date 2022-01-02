@@ -41,22 +41,22 @@ const About = () => {
                     <div class="member">
                         <img src={saurab} alt="joyshri image" />
                         <h2>Saurab Patel</h2>
-                        <p>Cio</p>
+                        {/* <p>Cio</p> */}
                     </div>
                     <div class="member">
                         <img src={nishant} alt="joyshri image" />
                         <h2>Nishant Kumar</h2>
-                        <p>Founder Educator</p>
+                        {/* <p>Founder Educator</p> */}
                     </div>
                     <div class="member">
                         <img src={anmol} alt="joyshri image" />
                         <h2>Anmol Raj</h2>
-                        <p>Company Adviser</p>
+                        {/* <p>Company Adviser</p> */}
                     </div>
                     <div class="member">
                         <img src={ayush} alt="joyshri image" />
                         <h2>Ayush Sharma</h2>
-                        <p>CMO</p>
+                        {/* <p>CMO</p> */}
                     </div>
                     <div class="member">
                         <img src={ritwik} alt="joyshri image" />
@@ -66,7 +66,7 @@ const About = () => {
                     <div class="member">
                         <img src={akash} alt="joyshri image" />
                         <h2>Akash</h2>
-                        <p>Content Manager</p>
+                        {/* <p>Content Manager</p> */}
                     </div>
 
                 </div>

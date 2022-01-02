@@ -35,12 +35,8 @@ const Header = () => {
                         </Nav>
                         <Form className="d-flex">
 
-                            <a class="btn1 btn-style" type="submit" href="/signup">
-                                Sign Up
-                            </a>
-
-                            <a class="btn1 btn-style btn-style-border" type="submit" href="/login">
-                                Log in
+                            <a class="btn1 btn-style" type="submit" href="https://forms.gle/SHiEJRKcwEMDUwN1A">
+                                Enroll Now
                             </a>
 
 

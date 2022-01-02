@@ -36,7 +36,7 @@ const Course = () => {
                                 <li>Mentors</li>
                                 <li>Feedbacks after every class</li>
                                 <li></li>
-                                <button type="button" class="price">Rs. 999</button>
+                                <button type="button" class="price">Rs. 299</button>
                             </div>
                         </div>
                     </li>
