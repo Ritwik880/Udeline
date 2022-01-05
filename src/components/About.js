@@ -11,6 +11,7 @@ import akash from '../image/akash.jpeg'
 import abhishek from '../image/abhishek.jpeg'
 import perminder from '../image/perminder.jpeg'
 import rajan from '../image/rajan.jpeg'
+import Aman from '../image/Aman.jpeg'
 const About = () => {
     
 
@@ -83,6 +84,11 @@ const About = () => {
                     <div class="member">
                         <img src={rajan} alt="joyshri image" />
                         <h2>Rajan Kumar</h2>
+                        {/* <p>Content Manager</p> */}
+                    </div>
+                    <div class="member">
+                        <img src={Aman} alt="joyshri image" />
+                        <h2>Aman Jha</h2>
                         {/* <p>Content Manager</p> */}
                     </div>
 
