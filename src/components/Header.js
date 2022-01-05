@@ -33,14 +33,14 @@ const Header = () => {
                             </LinkContainer>
 
                         </Nav>
-                        <Form className="d-flex">
+                        {/* <Form className="d-flex">
 
                             <a class="btn1 btn-style" type="submit" href="https://forms.gle/SHiEJRKcwEMDUwN1A">
                                 Enroll Now
                             </a>
 
 
-                        </Form>
+                        </Form> */}
 
                     </Navbar.Collapse>
                 </Container>

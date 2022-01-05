@@ -76,7 +76,7 @@ const RoadMap = () => {
                             <h1 class="dinot-haeding header">Timeline
 
                             </h1>
-                            <p class="pt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nulla inventore fuga.
+                            <p class="pt-4">We present to you the roadmap of Udeline so that you can connect with us without any hurdles.
                             </p>
                           
                         </div>

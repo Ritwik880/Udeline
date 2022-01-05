@@ -207,19 +207,32 @@ ul li a{
     margin-top: -10% !important;
 }
 .about{
-    min-height: 500px !important;
+    min-height: 570px !important;
     background-image: linear-gradient(rgba(9,5,54,0.3), rgba(5,4,46,0.7)), url('./image/aboutbg.jpg');
     background-size: cover;
     background-position: center top;
     /* background: !important; */
         
 }
-.course{
+#course{
+    color: #fff;
     min-height: 570px !important;
-    background-image: url('./image/course.jpg');
+    background-image: linear-gradient(rgba(9,5,54,0.3), rgba(5,4,46,0.7)), url('./image/course.jpg');
     background-size: cover;
     background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
         
+}
+#course p{
+    width: 85%;
+    margin: 0 0 16px;
+}
+#course a{
+    text-decoration: none;
+    color: #fff;
 }
 .upper{
     z-index: 2;

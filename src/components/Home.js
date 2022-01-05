@@ -16,6 +16,9 @@ const Home = () => {
     // const firstSectionRow = {
     //     marginTop: '8%'
     // }
+    const form ={
+        textDecoration: 'none'
+    }
 
     return (
         <>
@@ -32,7 +35,7 @@ const Home = () => {
                             </h1>
                             <p class="pt-4">Udeline is India`s largest and fastest-growing community of technology innovators including startups and student innovators.
                             </p>
-                            <div class="d-flex pt-4 d-none d-lg-block d-xl-block d-md-block">
+                            <div class="d-flex pt-4">
                                 <a href="/course" class="btn btn-primary mr-2 aagam-btn-primary">Get Started</a>
 
                             </div>
@@ -63,8 +66,8 @@ const Home = () => {
                             <li>Udeline accompanies you during your college selection procedure. </li>
                             {/* <p class="pt-4">Udeline is India`s largest and fastest-growing community of technology innovators including startups and student innovators.
                             </p> */}
-                            <div class="d-flex pt-4 d-none d-lg-block d-xl-block d-md-block">
-                                <a href="/course" class="mr-2 aagam-btn-primary">Join Us</a>
+                            <div class="d-flex pt-4">
+                                <a style={form} href="https://forms.gle/SHiEJRKcwEMDUwN1A" class="mr-2 aagam-btn-primary">Join Us</a>
 
                             </div>
                         </div>

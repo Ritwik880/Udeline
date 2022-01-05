@@ -80,3 +80,20 @@
   border: none;
   padding: 10px;
 }
+.courseButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  color: #088178;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #FEAE29;
+  padding: 15px 40px 15px 40px;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.courseButton:hover{
+  background: #f1c40f;
+}

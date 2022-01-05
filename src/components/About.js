@@ -8,7 +8,9 @@ import ritwik from '../image/ritwik.jpg'
 import ayush from '../image/ayush.jpeg'
 import joyshri from '../image/joyshri.jpeg'
 import akash from '../image/akash.jpeg'
-
+import abhishek from '../image/abhishek.jpeg'
+import perminder from '../image/perminder.jpeg'
+import rajan from '../image/rajan.jpeg'
 const About = () => {
     
 
@@ -66,6 +68,21 @@ const About = () => {
                     <div class="member">
                         <img src={akash} alt="joyshri image" />
                         <h2>Akash</h2>
+                        {/* <p>Content Manager</p> */}
+                    </div>
+                    <div class="member">
+                        <img src={perminder} alt="joyshri image" />
+                        <h2>Perminder Singh</h2>
+                        {/* <p>Content Manager</p> */}
+                    </div>
+                    <div class="member">
+                        <img src={abhishek} alt="joyshri image" />
+                        <h2>Abhishek Raj</h2>
+                        {/* <p>Content Manager</p> */}
+                    </div>
+                    <div class="member">
+                        <img src={rajan} alt="joyshri image" />
+                        <h2>Rajan Kumar</h2>
                         {/* <p>Content Manager</p> */}
                     </div>
 
