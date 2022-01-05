@@ -12,7 +12,7 @@ const RoadMap = () => {
     }
     const websiteLink = {
         textDecoration: 'none',
-        color: '#000'
+       
     }
     return (
 
@@ -101,7 +101,7 @@ const RoadMap = () => {
                             <h2>Registration </h2>
                             {/* <div className="date">1 MAY 2016</div> */}
                             <p className='para'>• To register, connect directly through website </p>
-                            <p className='para'><a className='websiteLink' style={websiteLink} href="https://udeline.herokuapp.com">• https://udeline.herokuapp.com</a></p>
+                            <p className='para'><a className='websiteLink' style={websiteLink} href="http://www.udeline.com/">• http://www.udeline.com/</a></p>
 
                             <p className='para'>• Contact no – 9311898085 </p>
                             <p className='para'>• Email- udelineindia@gmail.com</p>

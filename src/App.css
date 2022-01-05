@@ -208,10 +208,10 @@ ul li a{
 }
 .about{
     min-height: 500px !important;
-    background-image: url('./image/aboutbg.jpg');
+    background-image: linear-gradient(rgba(9,5,54,0.3), rgba(5,4,46,0.7)), url('./image/aboutbg.jpg');
     background-size: cover;
     background-position: center top;
-    /* background: linear-gradient(87deg,#172b4d 0,#1a174d 100%)!important; */
+    /* background: !important; */
         
 }
 .course{
