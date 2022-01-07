@@ -1,6 +1,8 @@
 import React from 'react'
 // import { Card, Button, Container, NavDropdown } from 'react-bootstrap';
 import physics from '../image/physics.jpg'
+import math from '../image/math.jpg'
+import chemistry from '../image/chemistry.jpg'
 import '../index.css'
 const Course = () => {
 
@@ -58,7 +60,7 @@ const Course = () => {
                     </li>
                     <li class="cards_item">
                         <div class="card">
-                            <div class="card_image"><img src={physics} /></div>
+                            <div class="card_image"><img src={chemistry} /></div>
                             <div class="card_content">
                                 <h2 class="card_title">Chemistry Term 2 Crash Course</h2>
                                 <li>Live Classes</li>
@@ -73,7 +75,7 @@ const Course = () => {
                     </li>
                     <li class="cards_item">
                         <div class="card">
-                            <div class="card_image"><img src={physics} /></div>
+                            <div class="card_image"><img src={math} /></div>
                             <div class="card_content">
                                 <h2 class="card_title">Math Term 2 Crash Course</h2>
                                 <li>Live Classes</li>
