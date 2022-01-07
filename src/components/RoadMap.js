@@ -83,7 +83,7 @@ const RoadMap = () => {
                     </div>
                     <div class="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0 padding-none-m my-3">
                        
-                        <img class="landing-image" src='https://source.unsplash.com/350x300/?Timeline' alt='landing-img' />
+                        <img class="landing-image" src='https://source.unsplash.com/350x300/?Courses' alt='landing-img' />
                     </div>
                     <div class="arrow-right"></div>
 

@@ -51,7 +51,7 @@ const Course = () => {
                                 <li>Personalised Guidance</li>
                                 <li>Mentors</li>
                                 <li>Feedbacks after every class</li>
-                                <li></li>
+                               
                                 <button type="button" class="price">Rs. 299</button>
                             </div>
                         </div>
@@ -60,13 +60,13 @@ const Course = () => {
                         <div class="card">
                             <div class="card_image"><img src={physics} /></div>
                             <div class="card_content">
-                                <h2 class="card_title">Chemistry Term 2 crash course </h2>
+                                <h2 class="card_title">Chemistry Term 2 Crash Course</h2>
                                 <li>Live Classes</li>
                                 <li>Doubt Classes every sunday</li>
                                 <li>Personalised Guidance</li>
                                 <li>Mentors</li>
                                 <li>Feedbacks after every class</li>
-                                <li></li>
+                               
                                 <button type="button" class="price">Rs. 299</button>
                             </div>
                         </div>

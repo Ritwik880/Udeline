@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './App.css';
 // import { Route } from 'react-router-dom';
-import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 
 import Home from './components/Home';
@@ -10,10 +10,10 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Course from './components/Course';
 import RoadMap from './components/RoadMap'
-import { ThemeProvider } from "styled-components";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
-  const heading ={
+  const heading = {
     textAlign: 'center'
   }
   const [loading, setLoading] = useState(false);
@@ -37,7 +37,7 @@ const App = () => {
           :
           <div>
             <Header />
-
+            <ScrollToTop />
             <Routes>
 
               <Route exact path="/" element={<Home />}>
@@ -57,11 +57,12 @@ const App = () => {
               <Route exact path="/contact" element={<Contact />}>
 
               </Route>
-              
-             
 
             </Routes>
             <Footer />
+
+
+
           </div>
 
 
