@@ -13,8 +13,16 @@ import perminder from '../image/perminder.jpeg'
 import rajan from '../image/rajan.jpeg'
 import Aman from '../image/Aman.jpeg'
 const About = () => {
-    
 
+    const Team = (props) => {
+        return (
+            <>
+                <img src={props.img} />
+                <h2>{props.title}</h2>
+                <p>{props.para}</p>
+            </>
+        )
+    }
 
     return (
         <>
@@ -37,67 +45,58 @@ const About = () => {
                 <input type="radio" name="dot" id="two" />
                 <div class="team-row">
                     <div class="member">
-                        <img src={joyshri} alt="joyshri image" />
-                        <h2>Joysri Talukdar</h2>
-                        <p>CEO & Founder</p>
-                    </div>
-                    <div class="member">
-                        <img src={saurab} alt="joyshri image" />
-                        <h2>Saurab Patel</h2>
-                        {/* <p>Cio</p> */}
-                    </div>
-                    <div class="member">
-                        <img src={nishant} alt="joyshri image" />
-                        <h2>Nishant Kumar</h2>
-                        {/* <p>Founder Educator</p> */}
-                    </div>
-                    <div class="member">
-                        <img src={anmol} alt="joyshri image" />
-                        <h2>Anmol Raj</h2>
-                        {/* <p>Company Adviser</p> */}
-                    </div>
-                    <div class="member">
-                        <img src={ayush} alt="joyshri image" />
-                        <h2>Ayush Sharma</h2>
-                        {/* <p>CMO</p> */}
-                    </div>
-                    <div class="member">
-                        <img src={ritwik} alt="joyshri image" />
-                        <h2>Ritwik Sinha</h2>
-                        <p>Cto</p>
-                    </div>
-                    <div class="member">
-                        <img src={akash} alt="joyshri image" />
-                        <h2>Akash</h2>
-                        {/* <p>Content Manager</p> */}
-                    </div>
-                    <div class="member">
-                        <img src={perminder} alt="joyshri image" />
-                        <h2>Perminder Singh</h2>
-                        {/* <p>Content Manager</p> */}
-                    </div>
-                    <div class="member">
-                        <img src={abhishek} alt="joyshri image" />
-                        <h2>Abhishek Raj</h2>
-                        {/* <p>Content Manager</p> */}
-                    </div>
-                    <div class="member">
-                        <img src={rajan} alt="joyshri image" />
-                        <h2>Rajan Kumar</h2>
-                        {/* <p>Content Manager</p> */}
-                    </div>
-                    <div class="member">
-                        <img src={Aman} alt="joyshri image" />
-                        <h2>Aman Jha</h2>
-                        {/* <p>Content Manager</p> */}
-                    </div>
+                        <Team img={joyshri} title="Joysri Talukdar" para="CEO & Founder" />
 
+                    </div>
+                    <div class="member">
+                        <Team img={saurab} title="Saurab Patel" />
+
+                    </div>
+                    <div class="member">
+                        <Team img={nishant} title="Nishant Kumar" />
+
+                    </div>
+                    <div class="member">
+                        <Team img={anmol} title="Anmol Raj" />
+
+                    </div>
+                    <div class="member">
+                        <Team img={ayush} title="Ayush Sharma" />
+
+                    </div>
+                    <div class="member">
+                        <Team img={ritwik} title="Ritwik Sinha" para="Cto" />
+
+                    </div>
+                    <div class="member">
+                        <Team img={akash} title="Akash" />
+
+                    </div>
+                    <div class="member">
+                        <Team img={perminder} title="Perminder Singh" />
+
+                    </div>
+                    <div class="member">
+                        <Team img={abhishek} title="Abhishek Raj" />
+
+                    </div>
+                    <div class="member">
+                        <Team img={rajan} title="Rajan Kumar" />
+
+                    </div>
+                    <div class="member">
+                        <Team img={Aman} title="Aman Jha" />
+
+                    </div>
                 </div>
                 <div class="button">
                     <label for="one" class=" active one"></label>
                     <label for="two" class="two"></label>
                 </div>
             </section>
+
+            {/* <Team img={saurab} title="Saurav Patel" /> */}
+
 
 
 

@@ -99,3 +99,7 @@
 .courseButton:hover{
   background: #f1c40f;
 }
+.component{
+  display: flex;
+  flex-basis: 31%;
+}

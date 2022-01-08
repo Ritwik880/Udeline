@@ -17,27 +17,10 @@ const Course = () => {
                 <a href='https://forms.gle/SHiEJRKcwEMDUwN1A' className='courseButton text-center'>Enroll Now</a>
                 {/* <div className="text-black mx-auto mt-5 upper">
                     
-
-
                 </div> */}
 
             </section>
-            {/* <div className="header pb-6 d-flex align-items-center course">
-
-                <span className="mask opacity-7 course-grad"></span>
-                <div className="container d-flex align-items-center">
-                    <div className="text-black mx-auto mt-5 upper">
-                        <div className="display-2 text-center">
-                            Explore More
-                        </div>
-                        <p>Confused on which course to take? We have got you covered. Browse courses and find out the best course for you.
-                            Udeline is our attempt to teach basics and those techniques to people in short time which took ages to learn.</p>
-                            <a className='courseButton text-center'>Enroll Now</a>
-
-                           
-                    </div>
-                </div>
-            </div> */}
+          
             <div class="container my-4">
                 {/* <h1 style={subHead} className='subHead'>OUR COURSES</h1> */}
 
